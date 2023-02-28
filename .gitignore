@@ -3,6 +3,7 @@
 
 # But these files:
 !.gitignore
+!.tmux.conf
 
 !.config/
 .config/*
