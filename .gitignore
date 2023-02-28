@@ -1,0 +1,14 @@
+# Ignore everything:
+/*
+
+# But these files:
+!.gitignore
+
+!.config/
+.config/*
+!.config/fish/
+
+#But ignore these:
+.config/fish/fishd.*
+.config/fish/fish_history
+.config/fish/fish_variables
