@@ -65,11 +65,11 @@ function fish_prompt
 		echo -n ':'
 		set_color yellow
 		echo -n (basename $PWD)
+		set_color green
+		printf '%s' (__fish_git_prompt)			
 	end
-	set_color green
-	printf '%s ' (__fish_git_prompt)
 	set_color red
-	echo -n '| '
+	echo -n ' | '
 	set_color normal
 end
 
