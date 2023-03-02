@@ -23,6 +23,10 @@ if test -f /usr/share/autojump/autojump.fish;
 	source /usr/share/autojump/autojump.fish;
 end
 
+if test -d ~/.cargo/bin
+	export PATH="$HOME/.cargo/bin:$PATH"
+end
+
 function ssh
 	switch $argv[1]
 	case "*.amazonaws.com"
