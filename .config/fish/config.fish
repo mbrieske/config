@@ -19,6 +19,10 @@ else
 	abbr -a lll 'ls -la'
 end
 
+if command -v nvim > /dev/null
+	abbr -a vim 'nvim'
+end
+
 if test -f /usr/share/autojump/autojump.fish;
 	source /usr/share/autojump/autojump.fish;
 end
