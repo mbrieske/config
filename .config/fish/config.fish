@@ -23,6 +23,8 @@ if command -v nvim > /dev/null
 	abbr -a vim 'nvim'
 end
 
+source ~/.asdf/asdf.fish
+
 if test -f /usr/share/autojump/autojump.fish;
 	source /usr/share/autojump/autojump.fish;
 end

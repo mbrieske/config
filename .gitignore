@@ -14,3 +14,6 @@
 .config/fish/fishd.*
 .config/fish/fish_history
 .config/fish/fish_variables
+.config/fish/functions/
+.config/fish/completions/
+.config/fish/fish_plugins
