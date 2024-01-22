@@ -171,3 +171,11 @@ function fish_greeting
 	set_color normal
 end
 
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+if test -f /home/mbrieske/anaconda3/bin/conda
+    eval /home/mbrieske/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+end
+# <<< conda initialize <<<
+
